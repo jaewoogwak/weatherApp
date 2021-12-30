@@ -13,7 +13,7 @@ import axios from "axios";
 
 const { width: SCREEN_WIDTH, height: SCREEN_HEIGHT } = Dimensions.get("window");
 
-const API_KEY = "2955d5550963e712512bdb1118d890a2";
+const API_KEY = "";
 
 export default function App() {
   const [city, setCity] = useState("Loading...");
